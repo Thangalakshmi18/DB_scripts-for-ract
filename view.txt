@@ -1,0 +1,42 @@
+CREATE OR REPLACE VIEW "Appendix A(Global_RACT)" AS
+
+SELECT
+
+    'RACT.BOTTLEVIAL.' || LPAD(ROW_NUMBER() OVER (ORDER BY b.hazardous_situation_id)::TEXT, 3, '0') AS RACT_Number,
+
+    b.hazardous_situation_id AS Hazardous_Situation_ID,
+
+    h.hazard AS Hazard,
+
+    p.hazardous_situation AS Hazardous_Situation,
+
+    h.harm AS Harm,
+
+    b.critical_qualitative AS Risk_Analysis_Critical,
+
+    b.moderate_qualitative AS Risk_Analysis_Moderate,
+
+    b.minor_qualitative AS Risk_Analysis_Minor,
+
+    'See appendix G MOR' AS Risk_Control_FSOE,
+
+    'See appendix G MOR' AS Risk_Reduction,
+
+    'See appendix G MOR' AS Effectiveness_Demonstration,
+
+    b.probability_of_hazardous_situation_p1 AS Probability_P1,
+
+    b.critical_pharm_qualitative AS Residual_Risk_Critical,
+
+    b.moderate_pharm_qualitative AS Residual_Risk_Moderate,
+
+    b.minor_pharm_qualitative AS Residual_Risk_Minor
+
+FROM
+
+    appendix_b_p2_conversion b
+
+LEFT JOIN "Appendix C - P1" p ON b.hazardous_situation_id = p.hs_id
+
+LEFT JOIN "HSHA-PARENTERAL-INFUSION" h ON b.hazardous_situation_id = h.new_hsnumber;
+ 
