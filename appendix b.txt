@@ -1,0 +1,163 @@
+INSERT INTO appendix_b_p2_conversion (
+
+    hazardous_situation_id,
+
+    critical_qualitative,
+
+    moderate_qualitative,
+
+    minor_qualitative,
+
+    critical_semi_quantitative,
+
+    moderate_semi_quantitative,
+
+    minor_semi_quantitative,
+
+    probability_of_hazardous_situation_p1,
+
+    critical,
+
+    moderate,
+
+    minor,
+
+    critical_pharm_qualitative,
+
+    moderate_pharm_qualitative,
+
+    minor_pharm_qualitative
+
+) VALUES
+
+('HS.PIT.1.4','Exceptional','Rare','Expected',NULL,NULL,NULL,1,1,2,7,NULL,NULL,NULL),
+
+('HS.PIT.1.5','Rare','Occasional','Expected',NULL,NULL,NULL,1,2,3,7,NULL,NULL,NULL),
+
+('HS.PIT.1.6','Occasional','Expected','Exceptional',NULL,NULL,NULL,1,3,7,1,NULL,NULL,NULL),
+
+('HS.PIT.1.7','Expected','Rare','Exceptional',NULL,NULL,NULL,1,7,2,1,NULL,NULL,NULL),
+
+('HS.PIT.10.1','Exceptional','Exceptional','Expected',NULL,NULL,NULL,2,2,2,14,NULL,NULL,NULL),
+
+('HS.PIT.10.2','Exceptional','Rare','Expected',NULL,NULL,NULL,1,1,2,7,NULL,NULL,NULL),
+
+('HS.PIT.10.3','Occasional','Likely','Expected',NULL,NULL,NULL,1,3,6,7,NULL,NULL,NULL),
+
+('HS.PIT.11.1','Exceptional','Exceptional','Expected',NULL,NULL,NULL,3,3,3,21,NULL,NULL,NULL),
+
+('HS.PIT.11.10',NULL,'Exceptional','Expected',NULL,NULL,NULL,1,NULL,1,7,NULL,NULL,NULL),
+
+('HS.PIT.11.3','Rare','Occasional','Expected',NULL,NULL,NULL,1,2,3,7,NULL,NULL,NULL),
+
+('HS.PIT.11.4','Exceptional','Rare','Expected',NULL,NULL,NULL,1,1,2,7,NULL,NULL,NULL),
+
+('HS.PIT.11.5',NULL,'Rare','Expected',NULL,NULL,NULL,1,NULL,2,7,NULL,NULL,NULL),
+
+('HS.PIT.11.6',NULL,'Exceptional','Expected',NULL,NULL,NULL,1,NULL,1,7,NULL,NULL,NULL),
+
+('HS.PIT.11.7','Occasional','Occasional','Expected',NULL,NULL,NULL,1,3,3,7,NULL,NULL,NULL),
+
+('HS.PIT.11.8','Rare','Rare','Expected',NULL,NULL,NULL,1,2,2,7,NULL,NULL,NULL),
+
+('HS.PIT.11.9','Exceptional','Exceptional','Expected',NULL,NULL,NULL,1,1,1,7,NULL,NULL,NULL),
+
+('HS.PIT.13.1',NULL,'Exceptional','Expected',NULL,NULL,NULL,1,NULL,1,7,NULL,NULL,NULL),
+
+('HS.PIT.13.2','Exceptional','Rare','Expected',NULL,NULL,NULL,1,1,2,7,NULL,NULL,NULL),
+
+('HS.PIT.13.3','Occasional','Likely','Expected',NULL,NULL,NULL,1,3,6,7,NULL,NULL,NULL),
+
+('HS.PIT.13.4','Periodic','Expected','Occasional',NULL,NULL,NULL,1,4,7,3,NULL,NULL,NULL),
+
+('HS.PIT.13.5',NULL,'Exceptional','Expected',NULL,NULL,NULL,2,NULL,2,14,NULL,NULL,NULL),
+
+('HS.PIT.13.6','Exceptional','Rare','Expected',NULL,NULL,NULL,2,2,4,14,NULL,NULL,NULL),
+
+('HS.PIT.13.7','Occasional','Expected','Periodic',NULL,NULL,NULL,2,6,14,8,NULL,NULL,NULL),
+
+('HS.PIT.14.1','Occasional','Expected','Periodic',NULL,NULL,NULL,2,6,14,8,NULL,NULL,NULL),
+
+('HS.PIT.15.1','Occasional','Expected','Occasional',NULL,NULL,NULL,1,3,7,3,NULL,NULL,NULL),
+
+('HS.PIT.16.1',NULL,'Exceptional','Expected',NULL,NULL,NULL,2,NULL,2,14,NULL,NULL,NULL),
+
+('HS.PIT.16.2','Exceptional','Rare','Expected',NULL,NULL,NULL,1,1,2,7,NULL,NULL,NULL),
+
+('HS.PIT.16.3','Occasional','Expected','Periodic',NULL,NULL,NULL,1,3,7,4,NULL,NULL,NULL),
+
+('HS.PIT.18.1','Rare','Rare','Expected',NULL,NULL,NULL,1,2,2,7,NULL,NULL,NULL),
+
+('HS.PIT.18.2','Occasional','Often','Expected',NULL,NULL,NULL,1,3,5,7,NULL,NULL,NULL),
+
+('HS.PIT.18.3','Often','Expected','Rare',NULL,NULL,NULL,1,5,7,2,NULL,NULL,NULL),
+
+('HS.PIT.18.4','Likely','Expected',NULL,NULL,NULL,NULL,1,6,7,NULL,NULL,NULL,NULL),
+
+('HS.PIT.18.5','Expected','Periodic',NULL,NULL,NULL,NULL,1,7,4,NULL,NULL,NULL,NULL),
+
+('HS.PIT.19.1',NULL,'Exceptional','Expected',NULL,NULL,NULL,2,NULL,2,14,NULL,NULL,NULL),
+
+('HS.PIT.2.1','Occasional','Expected','Often',NULL,NULL,NULL,1,3,7,5,NULL,NULL,NULL),
+
+('HS.PIT.20.3','Rare','Occasional','Expected',NULL,NULL,NULL,1,2,3,7,NULL,NULL,NULL),
+
+('HS.PIT.21.3','Occasional','Periodic','Expected',NULL,NULL,NULL,2,6,8,14,NULL,NULL,NULL),
+
+('HS.PIT.21.4','Periodic','Expected','Occasional',NULL,NULL,NULL,2,8,14,6,NULL,NULL,NULL),
+
+('HS.PIT.21.5','Often','Expected','Rare',NULL,NULL,NULL,2,10,14,4,NULL,NULL,NULL),
+
+('HS.PIT.22.1','Occasional','Expected','Rare',NULL,NULL,NULL,1,3,7,2,NULL,NULL,NULL),
+
+('HS.PIT.22.2','Rare','Occasional','Expected',NULL,NULL,NULL,1,2,3,7,NULL,NULL,NULL),
+
+('HS.PIT.23.1','Exceptional','Exceptional','Expected',NULL,NULL,NULL,2,2,2,14,NULL,NULL,NULL),
+
+('HS.PIT.23.2','Occasional','Expected','Periodic',NULL,NULL,NULL,1,3,7,4,NULL,NULL,NULL),
+
+('HS.PIT.24.1','Exceptional','Periodic','Expected',NULL,NULL,NULL,2,2,8,14,NULL,NULL,NULL),
+
+('HS.PIT.27.1','Occasional','Expected','Often',NULL,NULL,NULL,1,3,7,5,NULL,NULL,NULL),
+
+('HS.PIT.27.3',NULL,'Rare','Expected',NULL,NULL,NULL,1,NULL,2,7,NULL,NULL,NULL),
+
+('HS.PIT.27.4','Exceptional','Rare','Expected',NULL,NULL,NULL,1,1,2,7,NULL,NULL,NULL),
+
+('HS.PIT.27.6',NULL,'Occasional','Expected',NULL,NULL,NULL,2,NULL,6,14,NULL,NULL,NULL),
+
+('HS.PIT.27.7','Exceptional','Rare','Expected',NULL,NULL,NULL,1,1,2,7,NULL,NULL,NULL),
+
+('HS.PIT.27.8','Rare','Periodic','Expected',NULL,NULL,NULL,2,4,8,14,NULL,NULL,NULL),
+
+('HS.PIT.27.9','Rare','Likely','Expected',NULL,NULL,NULL,1,2,6,7,NULL,NULL,NULL),
+
+('HS.PIT.28.1','Often','Expected','Rare',NULL,NULL,NULL,2,10,14,4,NULL,NULL,NULL),
+
+('HS.PIT.3.1','Exceptional','Rare','Expected',NULL,NULL,NULL,1,1,2,7,NULL,NULL,NULL),
+
+('HS.PIT.3.2','Occasional','Expected','Occasional',NULL,NULL,NULL,1,3,7,3,NULL,NULL,NULL),
+
+('HS.PIT.3.3','Likely','Expected',NULL,NULL,NULL,NULL,1,6,7,NULL,NULL,NULL,NULL),
+
+('HS.PIT.3.4','Expected','Rare',NULL,NULL,NULL,NULL,1,7,2,NULL,NULL,NULL,NULL),
+
+('HS.PIT.4.1','Expected',NULL,NULL,NULL,NULL,NULL,1,7,NULL,NULL,NULL,NULL,NULL),
+
+('HS.PIT.5.1','Rare','Rare','Expected',NULL,NULL,NULL,3,6,6,21,NULL,NULL,NULL),
+
+('HS.PIT.5.2','Occasional','Often','Expected',NULL,NULL,NULL,3,9,15,21,NULL,NULL,NULL),
+
+('HS.PIT.5.3','Often','Expected','Rare',NULL,NULL,NULL,3,15,21,6,NULL,NULL,NULL),
+
+('HS.PIT.5.4','Likely','Expected',NULL,NULL,NULL,NULL,1,6,7,NULL,NULL,NULL,NULL),
+
+('HS.PIT.5.5','Expected','Periodic',NULL,NULL,NULL,NULL,1,7,4,NULL,NULL,NULL,NULL),
+
+('HS.PIT.6.2','Rare','Occasional','Expected',NULL,NULL,NULL,1,2,3,7,NULL,NULL,NULL),
+
+('HS.PIT.6.3','Occasional','Periodic','Expected',NULL,NULL,NULL,1,3,4,7,NULL,NULL,NULL),
+
+('HS.PIT.7.1','Periodic','Expected','Rare',NULL,NULL,NULL,2,8,14,4,NULL,NULL,NULL);
+ 
+ 
